@@ -11,7 +11,7 @@
 [image6]:images/example_6.jpg "Original Right Image"
 [image7]:images/example_7.jpg "Normalized image"
 
-<p>The following items are included as mentioned in the project's submission itinerary:</p>
+The following items are included as mentioned in the project's submission itinerary:
 * model.py
 * model.h5
 * drive.py
@@ -44,7 +44,7 @@ The Data augmentation steps can be seen in the model.py file from lines 22-79. A
 
 ### 3. Data Pre-Processing :
 A few data pre-processing steps were carried out before they were subjected to training. I initially converted the available images to YUV colorspace (model.py line 97). This was done as this had also been followed in the Nvidia paper "End to End Learning for Self-Driving Cars". A YUV transformed Image can be seen below.
-<center>![alt text][image3]</center>
+<p align="center">![alt text][image3]</center></p>
 <center>_YUV image_</center>
 
 The color-transformed image is then cropped. Only information from a particular region of interest is required.Since the camera will be in a fixed position we can eliminate the portion of the image containing the skyline and the hood of the car. This is the first step in the convolutional model(model.py line 121).Below is the cropped version of the original image.
