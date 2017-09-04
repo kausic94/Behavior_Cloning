@@ -1,4 +1,4 @@
-#<center> **Behavioral Cloning Project**</center>
+<center>**Behavioral Cloning Project**</center>
 ---
 
 <p> This write-up file summarises the approach I employed in completing the behavior Cloning Project.</p>
