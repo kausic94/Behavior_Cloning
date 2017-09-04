@@ -24,7 +24,7 @@
 ### 1. Collecting Data:
 I used the simulator provided by Udacity to collect the data. I drove the car in the training mode. I drove 3 laps around track 1 in the anti-clockwise direction and 3 laps in the anti-clockwise direction. I got 33177 images in total that included left, right and center images.
 
-<center>![alt text][image1]</center>
+![alt text][image1]
 <center>_Center Camera Image_</center>
 
 <center>![alt text][image5]</center>
