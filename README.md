@@ -15,7 +15,7 @@ The following items are included as mentioned in the project's submission itiner
 * model.py
 * model.h5
 * drive.py
-* writeup_report.md
+* README.md
 * images (directory)
 * video.mp4
 
